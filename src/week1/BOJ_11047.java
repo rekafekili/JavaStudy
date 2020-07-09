@@ -16,14 +16,16 @@ public class BOJ_11047 {
             coin.push(sc.nextInt());
         }
 
-        while(!coin.empty()) {
+        while (!coin.empty()) {
             int tmp = coin.pop();
-            if(goal/tmp == 0) {
+            if (goal / tmp == 0) {
                 continue;
+            } else if (goal == 0) {
+                break;
             } else {
-                int c = goal/tmp;
+                int c = goal / tmp;
                 count += c;
-                goal -= tmp*c;
+                goal -= tmp * c;
             }
         }
 
