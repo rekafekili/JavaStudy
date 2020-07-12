@@ -31,7 +31,6 @@ public class BOJ_2156 {
             } else {
                 result = Math.max(result, tmpTotal);
             }
-            System.out.println("Test : " + tmpTotal);
         }
 
         System.out.println(result);
