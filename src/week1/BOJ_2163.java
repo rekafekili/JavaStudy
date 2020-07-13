@@ -2,6 +2,7 @@ package week1;
 
 import java.util.Scanner;
 
+// https://www.acmicpc.net/problem/2163
 public class BOJ_2163 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

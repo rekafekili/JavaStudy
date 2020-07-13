@@ -3,6 +3,7 @@ package week1;
 import java.util.Scanner;
 import java.util.Stack;
 
+// https://www.acmicpc.net/problem/11047
 public class BOJ_11047 {
     public static void main(String[] args) {
         int count = 0;
