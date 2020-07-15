@@ -16,6 +16,9 @@ public class BOJ_14501 {
             Ts[i] = sc.nextInt();
             Ps[i] = sc.nextInt();
         }
+
+        // 다이나믹 프로그래밍 풀이 몇개만 볼것
+        // 모든 경우의 수를 생각해보자.
     }
 
     public void calculate(int day, int total, int coolTime) {
