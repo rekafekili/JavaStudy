@@ -31,6 +31,7 @@ public class BOJ_1010 {
 
     private static BigInteger factorial(int d) {
         BigInteger result = BigInteger.valueOf(1);
+
         for (int i = d; i > 0; i--) {
             result = result.multiply(BigInteger.valueOf(i));
         }
