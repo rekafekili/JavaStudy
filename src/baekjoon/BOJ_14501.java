@@ -1,4 +1,4 @@
-package week1;
+package baekjoon;
 
 import java.util.Scanner;
 
