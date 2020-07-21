@@ -3,6 +3,9 @@ package baekjoon;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Solved
+ */
 // https://www.acmicpc.net/problem/2217
 public class BOJ_2217 {
     public static void main(String[] args) {
