@@ -3,6 +3,9 @@ package baekjoon;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/**
+ * Solved
+ */
 // https://www.acmicpc.net/problem/1010
 public class BOJ_1010 {
     public static void main(String[] args) {
