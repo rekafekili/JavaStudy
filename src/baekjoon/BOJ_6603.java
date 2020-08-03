@@ -2,6 +2,9 @@ package baekjoon;
 
 import java.util.Scanner;
 
+/**
+ * Solved
+ */
 // https://www.acmicpc.net/problem/6603
 public class BOJ_6603 {
     public static void main(String[] args) {

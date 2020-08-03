@@ -8,16 +8,19 @@ public class BOJ_1436 {
         Scanner sc = new Scanner(System.in);
 
         int series = sc.nextInt();
+        int count = 0;
 
-        int sixCount = (series - 1) / 10;
-        int prefix = ((series - 1) % 10);
+        int i = 666;
+        while(true) {
+            if(Integer.toString(i).contains("666")) {
+                count++;
+                if(count == series) {
+                    System.out.println(i);
+                    return;
+                }
+            }
 
-        if (prefix != 0) {
-            System.out.print(prefix);
-        }
-
-        for (int i = 0; i < sixCount + 3; i++) {
-            System.out.print("6");
+            i++;
         }
     }
 }
