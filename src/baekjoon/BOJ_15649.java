@@ -15,6 +15,6 @@ public class BOJ_15649 {
         boolean[] started = new boolean[N + 1];
         boolean[] checkArray = new boolean[N + 1];
 
-
+        
     }
 }
