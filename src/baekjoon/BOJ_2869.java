@@ -13,17 +13,12 @@ public class BOJ_2869 {
         int B = Integer.parseInt(input.split(" ")[1]);
         int V = Integer.parseInt(input.split(" ")[2]);
 
-        int day = 0;
-        int position = 0;
+        int day;
+        if(V==A) {
+            day = 1;
+        } else {
+            day = V-B;
 
-        while(position < V) {
-            day++;
-            position += A;
-            if(position >= V) {
-                break;
-            } else {
-                position -= B;
-            }
         }
 
         bw.write("" + day);
