@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * Solved - Repeat
+ * Solved
  */
 
 // https://www.acmicpc.net/problem/2869
