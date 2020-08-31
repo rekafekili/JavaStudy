@@ -16,6 +16,7 @@ public class BOJ_2581 {
         int M = sc.nextInt();
         int N = sc.nextInt();
 
+
         for (int i = M; i <= N; i++) {
             if(checkPrime(i)) {
                 total += i;
