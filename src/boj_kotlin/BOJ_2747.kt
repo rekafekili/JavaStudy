@@ -33,3 +33,12 @@ fun getFibonacci(n: Int): Int {
         }
     }
 }
+
+fun getFibonacci2(n: Int): Int {
+    var pair = Pair(0, 1)
+    for (i in 0 until n) {
+        pair = Pair(pair.second, pair.first + pair.second)
+    }
+
+    return pair.first
+}
